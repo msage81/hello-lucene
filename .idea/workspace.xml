@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1c8923c-2e24-43cd-85c7-ae088e1cdecd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/sausage/lucene/app/GenderApp.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/sausage/lucene/app/TokenStreamApp.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/hello-lucene.iml" afterPath="$PROJECT_DIR$/.idea/modules/hello-lucene.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/sausage/lucene/app/FirstApp.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/sausage/lucene/app/FirstApp.scala" />
     </list>
     <ignored path="hello-lucene.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1126,12 +1121,20 @@
       <updated>1467849037223</updated>
       <workItem from="1467849041388" duration="2396000" />
       <workItem from="1467851603866" duration="815000" />
-      <workItem from="1468242360747" duration="6006000" />
+      <workItem from="1468242360747" duration="6056000" />
     </task>
+    <task id="LOCAL-00001" summary="working through examples">
+      <created>1468251680136</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1468251680136</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9217000" />
+    <option name="totallyTimeSpent" value="9267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="23" width="1404" height="805" extended-state="0" />
@@ -1175,6 +1178,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="working through examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="working through examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
