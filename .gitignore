@@ -1,6 +1,4 @@
-project/target/scala-2.10/
-project/target/streams/compile/incCompileSetup/
-src/main/java/
+project/target/
 src/main/resources/
 src/main/scala-2.11/
 target/scala-2.11/resource_managed/
