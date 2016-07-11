@@ -24,10 +24,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.8:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-analyzers-common:6.1.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-core:6.1.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-queries:6.1.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-queryparser:6.1.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.lucene:lucene-sandbox:6.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-queryparser:6.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-queries:6.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-core:6.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-analyzers-common:6.1.0:jar" level="project" />
   </component>
 </module>

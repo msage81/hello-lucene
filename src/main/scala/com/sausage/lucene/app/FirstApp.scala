@@ -22,22 +22,35 @@ object FirstApp extends App{
   indexWriter.addDocument(doc)
   indexWriter.close()
 
-  val indexReader = DirectoryReader.open(directory)
-  val indexSearcher = new IndexSearcher(indexReader)
+  search
 
-  val parser = new QueryParser("fieldname", analyzer)
-  val query = parser.parse("Lucene")
+  def search: Unit = {
+    val indexReader = DirectoryReader.open(directory)
+    val indexSearcher = new IndexSearcher(indexReader)
 
-  val hitsPerPage = 10
-  val docs = indexSearcher.search(query, hitsPerPage)
-  val hits = docs.scoreDocs
-  val end = Math.min(docs.totalHits, hitsPerPage)
-  println("Total Hits: " + docs.totalHits)
-  println("Results: ")
-  for (i <- (0 until end)) {
-    val d = indexSearcher.doc(hits(i).doc)
-    println("Content: " + d.get("fieldname"))
+    val parser = new QueryParser("fieldname", analyzer)
+    val query = parser.parse("Lucene")
+
+    val hitsPerPage = 10
+    val docs = indexSearcher.search(query, hitsPerPage)
+    val hits = docs.scoreDocs
+    val end = Math.min(docs.totalHits, hitsPerPage)
+    println("Total Hits: " + docs.totalHits)
+    println("Results: ")
+    for (i <- (0 until end)) {
+      val d = indexSearcher.doc(hits(i).doc)
+      println("Content: " + d.get("fieldname"))
+    }
+    indexReader.close()
   }
+  delete
+  def delete: Unit ={
+    val analyzer = new WhitespaceAnalyzer()
+    val config = new IndexWriterConfig( analyzer)
+    val indexWriter = new IndexWriter(directory,config)
+    indexWriter.deleteAll()
+  }
+  search
 
 //  indexWriter.deleteDocuments(new Term("id", "1"))
 //  indexWriter.close()
