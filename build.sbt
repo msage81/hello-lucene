@@ -13,4 +13,6 @@ libraryDependencies += "org.apache.lucene" % "lucene-analyzers-common" % "6.1.0"
 // https://mvnrepository.com/artifact/org.apache.lucene/lucene-queryparser
 libraryDependencies += "org.apache.lucene" % "lucene-queryparser" % "6.1.0"
 
-    
+// https://mvnrepository.com/artifact/com.typesafe.play/play_2.11
+libraryDependencies += "com.typesafe.play" % "play_2.11" % "2.5.4"
+

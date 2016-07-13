@@ -1,5 +1,6 @@
 project/target/
-src/main/resources/
+src/main/resources/merchants
+src/main/resources/search
 src/main/scala-2.11/
 target/scala-2.11/resource_managed/
 target/scala-2.11/src_managed/

@@ -1,0 +1,4 @@
+﻿1555	Mark's Restaurant	Italian, , 	39.942001	-75.144139	Philadelphia	PA
+2239	Shawn's Restaurant	Indian, , 	26.062830	-80.196740	Ft Lauderdale	FL
+2961	Restaurant de Chuy	Indian, Middle Eastern, 	40.525412	-74.360174	Edison	NJ
+3453	Kirin's Sushi, Japanese, 	41.929457	-87.648915	Chicago	IL
